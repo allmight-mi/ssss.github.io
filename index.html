@@ -1,19 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>测试</title>
+    <title>商品导航页</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .item {
+            width: 200px;
+            height: 80px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f1f1f1;
+        }
+        
+        .item p {
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>测试</h1>
+    <h1>商品导航页</h1>
     
-    <p>这是一个带有超链接的示例网页。</p>
-    
-    <ul>
-        <li><a href="https://www.example.com">点击这里访问 Example 网站</a></li>
-        <li><a href="https://www.google.com">点击这里访问 Google</a></li>
-        <li><a href="https://www.openai.com">点击这里访问 OpenAI</a></li>
-    </ul>
-    
-    
+    <div class="container">
+        <a href="https://www.example.com">
+            <div class="item">
+                <p>商品1</p>
+            </div>
+        </a>
+        
+        <a href="https://www.example.com">
+            <div class="item">
+                <p>商品2</p>
+            </div>
+        </a>
+        
+        <a href="https://www.example.com">
+            <div class="item">
+                <p>商品3</p>
+            </div>
+        </a>
+        
+        <!-- 添加更多商品 -->
+    </div>
 </body>
 </html>
